@@ -1,0 +1,175 @@
+/* --------------------- Contact Us ------------------------ */
+
+#contact {
+  width: 100%;
+}
+
+#contact .contact-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  padding-bottom: 20px;
+}
+
+#contact .underline {
+  height: 3px;
+  width: 72px;
+  margin: 0 auto;
+  background: #F23A2E;
+  margin-bottom: 70px;
+}
+.contact-left {
+  width: 48%;
+  float: left;
+  margin-right: 113px;
+}
+.contact-left h1 {
+  color: #F23A2E;
+  padding-bottom: 20px;
+}
+
+.contact-left .contact-01 a {
+  text-decoration: none;
+  color: #707070;
+}
+.contact-left .contact-02 p {
+  color: #707070;
+}
+.contact-left .contact-02 a {
+  color: #707070;
+}
+
+.contact-left p {
+  padding-bottom: 10px;
+}
+
+.contact-left  .contact-01 {
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-left  .contact-02 {
+  float: left;
+  
+}
+
+.main-contact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-left:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.email {
+  margin-bottom: 20px;
+}
+.contact-02 a {
+  margin-right: 10px;
+}
+
+.contact-right {
+  width: 40%;
+  float: left;
+  overflow: visible;
+}
+.contact-right h1 {
+  color: #F23A2E;
+  padding-bottom: 20px;
+}
+
+.main-contact {
+  padding: 90px 119px;
+}
+
+
+input[type="text"]  {
+  color: #707070;
+  width: 350px;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: none;
+  border:solid 1px #707070;
+  border-radius: 3px;
+}
+
+textarea {
+  outline: none;
+  width: 350px;
+  height: 200px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  color: #707070;
+  border-radius: 3px;
+  font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+
+}
+
+
+
+
+.submit {
+  background: #F23A2E;
+  padding: 8px 151px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+#copyright {
+  text-align: center;
+  padding: 30px;
+  color: #707070;
+}
+
+.scrollToTop {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  width: 60px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  z-index: 999;
+  display: none;
+}
+.scrollToTop img {
+  width: 40px;
+  height: 40px;
+}
+
+/*===================== MEDIA QUERIES ========================*/
+/*Tablets*/
+@media only screen and (max-width: 960px) {
+  #contact .container {
+    width: 89.33%;
+    padding: 90px 28px;
+  }
+
+  #contact .main-contact h1 {
+    text-align: left;
+  }
+
+  #contact .main-contact .underline {
+    margin: 0;
+    margin-bottom: 70px;
+  }
+
+  .contact-right {
+    margin-top: 20px;
+  }
+
+
+}
+
+/*Phones*/
+@media only screen and (max-width: 750px) {
+  #contact .container {
+    width: 670px;
+  }
+}
